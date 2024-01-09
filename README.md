@@ -2,10 +2,10 @@
 
 This documentation outlines the steps to connect your Windows Server/Desktop to Ansible via SSH, allowing you to use it as an Ansible host.
 
-1. [Installing SSH Server in Your Windows Machine](#step-1-installing-ssh-server-in-your-windows-machine)
-2. [Connecting to Ansible Via Password Authentication](#step-2-connecting-to-ansible-via-password-authentication)
-3. [Setting Up Passwordless Authentication](#step-3-setting-up-passwordless-authentication)
-4. [Checking Connection and Running a Test Playbook](#step-4-checking-connection-and-running-a-test-playbook)
+1. [Installing SSH Server in Your Windows Machine](#1-installing-ssh-server-in-your-windows-machine)
+2. [Connecting to Ansible Via Password Authentication](#2-connecting-to-ansible-via-password-authentication)
+3. [Setting Up Passwordless Authentication](#3-setting-up-passwordless-authentication)
+4. [Checking Connection and Running a Test Playbook](#4-checking-connection-and-running-a-test-playbook)
 
 ## 1. Installing SSH Server in Your Windows Machine
 
