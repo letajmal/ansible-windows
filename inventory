@@ -1,0 +1,13 @@
+[win_host]
+<IP or HostName>
+# eg., 192.168.1.100 or ssh-server.example.com
+[win:vars]
+ansible_user=<>
+# Username - type `whomai` in powershell to find out
+# Uncomment ansible_password variable for password auth - Not Recommended
+#ansible_password=<>
+ansible_connection=ssh
+ansible_shell_type=powershell # or cmd
+ansible_ssh_common_args=-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+ansible_ssh_retries=3
+ansible_become_method=runas
